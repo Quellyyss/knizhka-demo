@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>100 причин любить</title>
+  <meta name="description" content="Книга-нежность: 100 причин любить тебя." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="particles"></div>
+
+  <header class="hero">
+    <div class="hero-content">
+      <h1 class="title">100 причин любить "имя"</h1>
+      <p class="subtitle">Этот сайт я сделал, как демонстрацию.</p>
+      <button id="startBtn" class="btn primary">Открыть список</button>
+    </div>
+  </header>
+
+  <main id="book" class="book hidden">
+    <section class="toc">
+      <h2>Оглавление</h2>
+      <p>Листай, чтобы открывать каждую причину. Или начни с первой.</p>
+      <button id="toFirst" class="btn">К первой причине</button>
+    </section>
+
+    <section id="pages" class="pages"></section>
+
+    <section class="final">
+      <h2>И это ещё не всё</h2>
+      <p>Любовь — это то, что растёт. Завтра мы напишем новую страницу.</p>
+      <button id="backToStart" class="btn">Вернуться на обложку</button>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>powered by @F0re1gnnn</small>
+  </footer>
+
+  <script src="reasons.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
